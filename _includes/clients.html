@@ -1,0 +1,12 @@
+<div id="cwrap">
+    <div class="container">
+        <div class="row centered">
+            <h3>External resources</h3>
+            {% for resource in site.ext_resources %}
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                    <a href="{{resource.url}}"><img src="{{ "/assets/img/ext_resources/" | prepend: site.baseurl }}{{ resource.img }}" class="img-responsive"></a>
+                </div>
+            {% endfor %}
+        </div><! --/row -->
+    </div><! --/container -->
+</div><! --/cwrap -->

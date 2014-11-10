@@ -11,30 +11,26 @@ permalink: /contact/
         <div class="col-lg-8">
             <h4>Just Get In Touch!</h4>
             <div class="hline"></div>
-                <p>{{ site.about }}</p>
-                <form role="form">
-                  <div class="form-group">
-                    <label for="InputName1">Your Name</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1">
-                  </div>
+                <p>I am a telecommunication engineer (Master level) with lots of projects in my head. I was born in Spain, but I'm currently living in Sweden, in Västeras. I have always shown interest about the technology, so it's very exciting to run this website with some of my current work. I hope I can share as many projects as possible. Oh, and if you like any project, you can always <a href="{{site.github}}">grab the code from GitHub</a>. You can also <a href="mailto:{{site.email}}">email me</a> if you have any suggestion, question, or any other reason.</p>
+                <!--<form role="form">
                   <div class="form-group">
                     <label for="InputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1">
+                    <input type="email" class="form-control" id="email1">
                   </div>
                   <div class="form-group">
                     <label for="InputSubject1">Subject</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1">
+                    <input type="subject" class="form-control" id="subject1">
                   </div>
                   <div class="form-group">
                     <label for="message1">Message</label>
                     <textarea class="form-control" id="message1" rows="3"></textarea>
                   </div>
                   <button type="submit" class="btn btn-theme">Submit</button>
-                </form>
+                </form>-->
         </div><! --/col-lg-8 -->
 
         <div class="col-lg-4">
-            <h4>Our Address</h4>
+            <h4>Address</h4>
             <div class="hline"></div>
                 <p>
                     {% for line in site.address.first.lines %}
@@ -42,10 +38,12 @@ permalink: /contact/
                     {% endfor %}
                 </p>
                 <p>
-                    Email: {{ site.email }}<br/>
+                    Email: <a href="mailto:{{site.email}}">{{ site.email }}</a><br/>
+                    GitHub: <a href="{{site.github}}">{{site.github}}</a><br/>
+                    Linkedin: <a href="{{site.linkedin}}">{{site.linkedin}}</a><br/>
+                    Google Plus: <a href="{{site.googleplus}}">{{site.googleplus}}</a><br/>
                     Tel: {{ site.tel }}
                 </p>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
         </div>
     </div><! --/row -->
 </div><! --/container -->

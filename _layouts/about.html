@@ -4,15 +4,16 @@ layout: default
 {% include wrap.html %}
 <div class="container mtb">
     <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-6" id="aboutimg">
     		<img class="img-responsive" src="{{ "/assets/img/about.jpg" | prepend: site.baseurl }}" alt="">
 			</div>
 			
-        <div class="col-lg-6">
-    		{{ content }}	
-    	</div>
+        <!--div class="col-lg-6"-->
+        <div id="abouttext">
+    		{{ content }}
+        </div>
+    	<!--/div-->
     </div><! --/row -->
 </div><! --/container -->
-{% include members.html %}
 {% include testimonial.html %}
-{% include clients.html %}
+{% include externalresources.html %}

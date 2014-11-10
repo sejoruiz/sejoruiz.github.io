@@ -28,9 +28,9 @@ social:
   - title: google-plus
     url: https://plus.google.com/+SejoRuiz
   - title: linkedin
-    url: es.linkedin.com/in/sergioruizpena/
+    url: https://es.linkedin.com/in/sergioruizpena/
   - title: github
-    url: https://github.com/sejorules    
+    url: https://github.com/sejoruiz   
   - title: envelope 
     url: mailto:sejoruiz@gmail.com
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
@@ -40,29 +40,33 @@ address:
     - 723 40, Västeras,
     - Sweden.
 email: sejoruiz@gmail.com
-tel: +46-72-0499-528
-
-
+tel: +46-072-0499-528
+github: https://github.com/sejoruiz
+linkedin: https://es.linkedin.com/in/sergioruizpena/
+googleplus: https://plus.google.com/+SejoRuiz
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
     
 # Members information. Shown on About page.
     
 # Clients information. Shown on Home and About pages.
 ext_resources:
-  - name: dribbble
-    img: client01.png
-  - name: Code is Poetry
-    img: client02.png
-  - name: Vimeo
-    img: client03.png
-  - name: VimeoPro
-    img: client04.png
-    
+  - name: Jekyll
+    img: jekyll.png
+    url: http://www.jekyllrb.com
+  - name: Raspberry
+    img: raspberry.png
+    url: http://www.raspberrypi.org
+  - name: GitHub
+    img: github.png
+    url: http://www.github.com
+  - name: ArchLinux
+    img: arch.png
+    url: http://www.archlinux.org
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "I am a telecommunication engineer (Master level) with lots of projects in my head. I was born in Spain, but I'm currently living in Sweden, in Västeras. I have always shown interest about the technology, so it's very exciting to run this website with some of my current work. I hope I can share as many projects as possible. Oh, and if you like any project, you can always grab the code from GitHub. You can also contact me if you have any suggestion, question, or any other reason."
+about: "I am a telecommunication engineer (Master level) with lots of projects in my head. I was born in Spain, but I'm currently living in Sweden, in Västeras. I have always shown interest about the technology, so it's very exciting to run this website with some of my current work. I hope I can share as many projects as possible. Oh, and if you like any project, you can always grab the code from GitHub. You can also email me if you have any suggestion, question, or any other reason."
 
 # Testimonial content. Shown on Home and About page. 
 testimonial:
     message: "With this website, you can check and interact every project I have worked on, and even fork it to try! I really hope you like it, and you are very welcomed to contact me!"
     author: Sergio Ruiz
-    position: Telecommunication Engineer (Master level)
+    position: Telecommunication Engineer

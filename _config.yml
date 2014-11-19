@@ -2,9 +2,9 @@
 
 # Site settings
 title: Sergio Ruiz's website.
-description: "Sergio Ruiz's personal website. Telecommunications engineer in love with technology."
+description: "Sergio Ruiz's personal website. Telecommunications engineer."
 baseurl: "" #important: start with /
-url: "http://sergioruiz.duckdns.org"
+url: "http://sejoruiz.github.io"
 project_img: "/assets/img/project/"
 # Build settings
 markdown: rdiscount
@@ -63,10 +63,10 @@ ext_resources:
     img: arch.png
     url: http://www.archlinux.org
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "I am a telecommunication engineer (Master level) with lots of projects in my head. I was born in Spain, but I'm currently living in Sweden, in Västeras. I have always shown interest about the technology, so it's very exciting to run this website with some of my current work. I hope I can share as many projects as possible. Oh, and if you like any project, you can always grab the code from GitHub. You can also email me if you have any suggestion, question, or any other reason."
+about: "This webpage was created by Sergio Ruiz. If you have any suggestion, or want to report a bug, please head to Contact. Thank you for your visit!"
 
 # Testimonial content. Shown on Home and About page. 
 testimonial:
-    message: "With this website, you can check and interact every project I have worked on, and even fork it to try! I really hope you like it, and you are very welcomed to contact me!"
+    message: "I am a telecommunication engineer (Master level) with lots of projects in my head. I was born in Spain, but I'm currently living in Västeras, Sweden. Since I was a kid and was disassembling computers for fun, I have felt technology was my thing. I find exciting to run this website with some of my current work. I hope I can share as many projects as possible."
     author: Sergio Ruiz
     position: Telecommunication Engineer

@@ -16,12 +16,16 @@
                 </p>
             </div>
             <div class="col-lg-4">
-                <h4>Address</h4>
+                <h4>Contact me</h4>
                 <div class="hline-w"></div>
                 <p>
+                    E-mail: {{site.email}}<br>
+                    Telephone: {{site.tel}} <br>
+                    Address: 
                     {% for line in site.address.first.lines %}
                         {{ line }} <br>
                     {% endfor %}
+
                 </p>
             </div>
         </div><! --/row -->

@@ -2,12 +2,12 @@
 
 # Site settings
 title: Sergio Ruiz's website.
-description: "Sergio Ruiz's personal website. Telecommunications engineer."
+description: "Sergio Ruiz personal website"
 baseurl: "" #important: start with /
 url: "http://sejoruiz.github.io"
 project_img: "/assets/img/project/"
 # Build settings
-markdown: rdiscount
+markdown: kramdown 
 permalink: /:categories/:title
 excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
 
@@ -69,4 +69,4 @@ about: "This webpage was created by Sergio Ruiz. If you have any suggestion, or 
 testimonial:
     message: "I am a telecommunication engineer (Master level) with lots of projects in my head. I was born in Spain, but I'm currently living in Västeras, Sweden. Since I was a kid and was disassembling computers for fun, I have felt technology was my thing. I find exciting to run this website with some of my current work. I hope I can share as many projects as possible."
     author: Sergio Ruiz
-    position: Telecommunication Engineer
+    position: Network Software Engineer

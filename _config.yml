@@ -1,10 +1,11 @@
+---
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: Sergio Ruiz's website.
+title: Sergio Ruiz virtual home
 description: "Sergio Ruiz personal website"
 baseurl: "" #important: start with /
-url: "http://sejoruiz.github.io"
+url: "https://sejoruiz.github.io"
 project_img: "/assets/img/project/"
 # Build settings
 markdown: kramdown 
@@ -24,26 +25,40 @@ colors:  #in hex code if not noted else
 ### CONTACT SETTINGS ###
 
 # Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
-social:
-  - title: google-plus
-    url: https://plus.google.com/+SejoRuiz
-  - title: linkedin
-    url: https://es.linkedin.com/in/sergioruizpena/
-  - title: github
-    url: https://github.com/sejoruiz   
-  - title: envelope 
-    url: mailto:sejoruiz@gmail.com
+social: 
+  - googleplus:
+        name: Google+
+        tag: google-plus
+        url: plus.google.com/+SejoRuiz
+        protocol: https://
+
+  - linkedin:
+        name: LinkedIn
+        tag: linkedin
+        url: es.linkedin.com/in/sergioruizpena/
+        protocol: https://
+
+  - github:
+        name: GitHub
+        tag: github
+        url: github.com/sejoruiz
+        protocol: https://
+
+  - email:
+        name: E-mail
+        tag: envelope 
+        url: sejoruiz@gmail.com
+        protocol: "mailto:"
+
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
   - lines: 
-    - Gunnilbogatan 2, lgh 1106.
-    - 723 40, Västeras,
+    - Möllevångsgatan 24B, lgh 1302.
+    - 21 420, Malmö,
     - Sweden.
+tel: +46-(0)79-334-6454
 email: sejoruiz@gmail.com
-tel: +46-072-0499-528
-github: https://github.com/sejoruiz
-linkedin: https://es.linkedin.com/in/sergioruizpena/
-googleplus: https://plus.google.com/+SejoRuiz
+
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
     
 # Members information. Shown on About page.
@@ -63,10 +78,11 @@ ext_resources:
     img: arch.png
     url: http://www.archlinux.org
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "This webpage was created by Sergio Ruiz. If you have any suggestion, or want to report a bug, please head to Contact. Thank you for your visit!"
+about: "This website was created by Sergio Ruiz. Any feed back is welcomed. You can find my contact info in Contact. Thank you for your visit!"
 
 # Testimonial content. Shown on Home and About page. 
 testimonial:
-    message: "I am a telecommunication engineer (Master level) with lots of projects in my head. I was born in Spain, but I'm currently living in Västeras, Sweden. Since I was a kid and was disassembling computers for fun, I have felt technology was my thing. I find exciting to run this website with some of my current work. I hope I can share as many projects as possible."
+    message: "I am a master in telecommunication engineer currently working as network software developer. I've got lots of projects in my head that I will be posting in this website. I was born in Spain, but I'm currently living in Malmö, Sweden. You can contact me in English or Spanish. I'm working on my Swedish, but it's not so good yet. So, anyway, I hope you enjoy your time here. Cheers!"
     author: Sergio Ruiz
-    position: Network Software Engineer
+    position: Network Software Developer
+---

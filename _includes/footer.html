@@ -11,7 +11,7 @@
                 <div class="hline-w"></div>
                 <p>
                     {% for network in site.social %}
-                        <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-{{ network.title }}"></i></a>
+                        <a href="{{ network.protocol }}{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-{{ network[1].tag }}"></i></a>
                     {% endfor %}
                 </p>
             </div>

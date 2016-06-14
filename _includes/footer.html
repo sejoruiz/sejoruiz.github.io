@@ -11,7 +11,7 @@
                 <div class="hline-w"></div>
                 <p>
                     {% for network in site.social %}
-                        <a href="{{ network.protocol }}{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-{{ network[1].tag }}"></i></a>
+                        <a href="{{ network.protocol }}{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-{{ network.tag }}"></i></a>
                     {% endfor %}
                 </p>
             </div>
@@ -19,7 +19,7 @@
                 <h4>Contact me</h4>
                 <div class="hline-w"></div>
                 <p>
-                    E-mail: {{site.email}}<br>
+                    E-mail: {{site.social[email_index].url}}<br>
                     Telephone: {{site.tel}} <br>
                     Address: 
                     {% for line in site.address.first.lines %}

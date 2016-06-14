@@ -23,27 +23,33 @@ carousel:
 images_root: website
 website: http://sergioruiz.duckdns.org
 ---
-###1. Introduction
+
+## Table of Contents
+{:.no_toc}
+* TOC
+{:toc}
+
+## 1. Introduction
 One of the first projects I always wanted to accomplish was to build a personal website. Something where I could keep track of my projects, and also have my resume uploaded. One of the simplest ways of achieving this was simply registering at [Wordpress](http://www.wordpress.com), [Blogger](http://blogger.com) or other resources. These great tools provides a way of building a really professional looking website without even touching a single line of code. However, after thinking about what I really wanted, I decided to build my own page without using any [Content Management System](http://en.wikipedia.org/wiki/Content_management_system). 
 
 <a href={{site.project_img}}{{page.images_root}}/cms.png rel="prettyPhoto" title="Popular Content Management Systems"><img src={{site.project_img}}{{page.images_root}}/cms.png alt="Most popular Content Management Systems (CMS)" /></a>
 
 This way, I would be able to have full access to the server, and manage the website entirely by my own. Above all, I would be able to design some projects that could interact with the website. Here, I'll explain how I built the entire website. Or you can go directly to GitHub and [fork the code](#)
 
-###2. Requirements.
+## 2. Requirements.
 For this little project we won't require much equipment. We will do fine as long as we have: 
 - A computer with Linux (in my case, I'm going to use a Raspberry Pi): I recommend to use an old machine, or, as my case, a Raspberry Pi. Please keep in mind that if you choose a different platform, some of the commands might need to be changed. You'll do fine as long as you have Debian or derivates (Raspbian, Ubuntu, Mint etc.)
 - Internet connection: We will have to download several packages through Internet. Plus, this is a web server, so I guess you already have this.
 And that's it!
 
-####2.1. Introduction to the Raspberry Pi
+### 2.1. Introduction to the Raspberry Pi
 As I have mentioned above, I wanted to host the website by myself. I needed a computer for that, and I bought the inexpensive, small and powerful Raspberry Pi B+. This little guy has an ARM processor that can run at 700MHz (without overclocking) and has 512 MB of RAM. 
 
 <a href={{site.project_img}}{{page.images_root}}/raspberry.png rel="prettyPhoto" title="The Raspberry Pi logo"><img src={{site.project_img}}{{page.images_root}}/raspberry.png alt="Raspberry Pi Logo" /></a>
 
 More than enough for a small website. The Raspberry Pi it's also a good starting point for new Linux users. There are tutorials for everything, and a lot of interesting projects out there. If you feel intrigued about this card-sized computer, you can go to [Raspberry Pi's website](http://www.raspberrypi.org) and read about it.
 
-###3. Installing the software (I): Server software
+## 3. Installing the software (I): Server software
 First of all, I needed to set up the Raspberry. In my case, I had to install the operating system. In the Raspberry Pi, this was a piece of cake.  When the Raspberry is plugged for the first time, it will launch the installation of the system by itself. There is even a nice mouse driven menu that will guide you in the process. After initialy setting up the Raspberry Pi, I needed to turn it into a small web server. There are many software out there for web server. The most used one is [Apache](httpd://www.apache.org) but I needed something minimal. I decided to go with [Nginx](http://nginx.org).
 
 <a href={{site.project_img}}{{page.images_root}}/cloud.jpg rel="prettyPhoto" title="The cloud"><img src={{site.project_img}}{{page.images_root}}/cloud.jpg alt="The digital cloud" /></a>
@@ -71,7 +77,7 @@ And if we go to [localhost](http://localhost) we will see something like this:
 I have to say, I also set up a database system (MySQL) and a couple of things more, but they are not really required for the website.
 Finally, I set up a Dynamic DNS service. This allows the access of a website through a name (i.e. [http://sergioruiz.duckdns.org](http://sergioruiz.duckdns.org)) instead of through an IP address. I won't go into details, but basically the Dynamic DNS is a DNS for dynamic IP. It doesn't matter if your IP is assigned dynamically, you'll still be able to find your website using its address. I chose [DuckDNS](http://www.duckdns.org), but there are many other choices out there.
 
-###4. Installing the software (II): The web framework
+## 4. Installing the software (II): The web framework
 After installing all the server software, I started thinking about how to develop the website. After some research, I discovered [Jekyll](http://jekyllrb.com/). For those who don't know it, Jekyll is the framework that generates the [GitHub](http://www.github.com) pages. From their own website:
 
 <a href={{site.project_img}}{{page.images_root}}/jekyll.png rel="prettyPhoto" title="Jekyll's logo"><img src={{site.project_img}}{{page.images_root}}/jekyll.png alt="Jekyll's logo" /></a>
@@ -90,5 +96,5 @@ And then we can install Jekyll:
 	
 There we go, we have succesfully set up the Raspberry Pi as the web server, and we can start working with Jekyll. 
 
-###5. The final product: The website
-Finally, I had all the requirements for starting to develop the website. So it was time to start looking for templates and resources. I'll just say there are plenty of them just a Google search away. In my case, the template uses [Bootstrap](http://www.getbootstrap.com), a technology created by [Twitter](http://www.twitter.com). You can download the code of this website in my GitHub. I think that's it. Hope you enjoy it!
+## 5. The final product: The website
+Finally, I had all the requirements for starting to develop the website. So it was time to start looking for templates and resources. There are millions of templates just a google search away. I've used [this one](https://github.com/st4ple/solid-jekyll) called Solid Jekyll. It's a gorgeous and colorful template created by [st4ple](https://github.com/st4ple) that uses [Bootstrap](https://www.getbootstrap.com).

@@ -3,21 +3,34 @@ layout: about
 title: About
 permalink: /about/
 ---
-###1. Curriculum Vitae
-####1.1.Education
+## Table of Contents
+{:.no_toc}
+* TOC
+{:toc}
 
--   2013 - present: *As an Erasmus student*. **1st year of Master programme in Intelligent Embedded Systems**. Mälardalen Hogskola, Västerås, Sweden.
+
+## Curriculum Vitae
+
+### Working experience
+
+-  07/2016 - Present: **Network Software Developer**. Axis AB, Lund, Sweden
+
+-  06/2015 - 06/2016: **System Engineer**. Safegate International AB, Malmö, Sweden
+
+### Education
+
+-   09/2008 - 03/2015: **Telecommunications Engineer.** *(360 ECTS)*. Technical University of Madrid (UPM), Madrid, Spain.
+
+
+-   09/2013 - 02/2015: *As an Erasmus student*. **1st year of Master programme in Intelligent Embedded Systems**. Mälardalen Hogskola, Västerås, Sweden.
 
 
 -   07/2012 - 08/2012: **Summer Course: Building a Microcontroller Spinning Display**. *(15 ECTS)*. VIA University, Horsens, Denmark.
 
 
--   09/2008 - present: **Telecommunications Engineer.** *(360 ECTS)*. Technical University of Madrid (UPM), Madrid, Spain.
-
-
 -   2002 - 2008: **High School.** Bernadette High School, Madrid, Spain.
 
-####1.2.Master Thesis
+### Master Thesis
 
 -   Title: *Case Based Decision Support System for Electrical Networks.*
 
@@ -27,7 +40,7 @@ permalink: /about/
 
 -   Brief description: This thesis studies and develop a decision support system that makes use of the Case Based Reasoning algorithm to troubleshoot an electrical network.
 
-####1.3.Experience and Projects:
+### Experience and Projects:
 
 -   06/2014 - Present: **Master Thesis**. *As Master Student.* ERICSSON, Stockholm, Sweden.
 
@@ -47,13 +60,13 @@ permalink: /about/
 
 -   02/2011 - 06/2011: **PongFire: Pong game implemented on Motorola ColdFire.** *As Developer.* TECHNICAL UNIVERSITY OF MADRID (UPM), Madrid, Spain.
 
-####1.4.Conferences and awards:
+### Conferences and awards:
 
 -   2013: **Firefox OS Hackathon Participant.**TECHNICAL UNIVERSITY OF MADRID (UPM), Madrid, Spain.
 
 -   2012: **WebRTC Hackathon 1st Award.** TECHNICAL UNIVERSITY OF MADRID (UPM), Madrid, Spain.
 
-####1.5.Skills:
+### Skills:
 **Programming Skills:**
 
 -   *Advanced Level:* C, JAVA (including Android), MATLAB.
@@ -66,14 +79,14 @@ permalink: /about/
 -   *Intermediate:* OpenOffice/LibreOffice, Microsoft Office, 3ds Max, Adobe Photoshop, Eagle, NI Multisim.
 -   *Basic:* iOS.
 
-####1.6.Languages:
+### Languages:
 
 -   **Spanish:** Mother Tongue.
 -   **English:** Fluent in speech and writing.
 -   **French:** Basic.
--   **Swedish:** Basic words and phrases.
+-   **Swedish:** A2. Basic conversation and writting skills.
 
-###2.Interests:
+### Interests:
 -   **Reading:** It’s one of my favorite activities. As an avid reader, I really get interested when there is something new to learn. I consider myself a very curious person, and reading is one of the best ways to discover something.
 -   **Piano:**I’ve been playing piano since I can remember, whenever I had time. I really enjoy the Piano. One of the most challenging instruments, people say, but on the other hand, you can make yourself shiver when you play it. I can also say I’m a big fan of the music in general.
 -   **Sport:** My favorite one is skiing, but I also practice swimming, paddle tennis, basketball, hiking, running and mountain biking. 

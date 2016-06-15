@@ -6,8 +6,28 @@
 	Description: Table of content formatting 
 	Version: 1.0
 		
-################################################################# */ 
-#toc
+################################################################# */
+
+/* Remove bullet points from TOC*/
+#markdown-toc
 {
-    list-style-type: none; 
+    /*Adjust box to correct size*/
+    overflow: auto; 
+    display: inline-block;
+    /*Frame coloring and adjustment*/
+    padding: 10px 10px 10px 10px;
+    border: 1px solid {{ site.colors.toc_border }};
+    /*Background of TOC*/
+    background: {{ site.colors.toc_background }};
+}
+
+#markdown-toc, #markdown-toc ul
+{
+    list-style-type: none;
+}
+
+/*First elements of the List are slightly bigger*/
+#markdown-toc ul > li
+{
+    text-indent: 1.5em;
 }

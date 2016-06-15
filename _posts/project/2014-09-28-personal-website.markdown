@@ -24,11 +24,6 @@ images_root: website
 website: http://sergioruiz.duckdns.org
 ---
 
-## Table of Contents
-{:.no_toc}
-* TOC
-{:toc}
-
 ## 1. Introduction
 One of the first projects I always wanted to accomplish was to build a personal website. Something where I could keep track of my projects, and also have my resume uploaded. One of the simplest ways of achieving this was simply registering at [Wordpress](http://www.wordpress.com), [Blogger](http://blogger.com) or other resources. These great tools provides a way of building a really professional looking website without even touching a single line of code. However, after thinking about what I really wanted, I decided to build my own page without using any [Content Management System](http://en.wikipedia.org/wiki/Content_management_system). 
 

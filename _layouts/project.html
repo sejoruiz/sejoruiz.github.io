@@ -9,13 +9,15 @@ layout: default
 
         {% include carousel.html %}
 
-        <div class="col-lg-5 col-lg-offset-1">
+        <div class="col-lg-6 col-lg-offset-1">
             <div class="spacing"></div>
-
-            {{ content }}
+            <h2> Table of Contents </h2>
+            {:.no_toc}
+            * TOC
+            {:toc}
 
         </div>
-        <div class="col-lg-4 col-lg-offset-1">
+        <div class="col-lg-3 col-lg-offset-1">
             <div class="spacing"></div>
             <h4>Project Details</h4>
             <div class="hline"></div>
@@ -34,6 +36,11 @@ layout: default
             <p><b>Website:</b> <a href="{{ page.website }}">{{ page.website }}</a></p>
         </div>
     </div><! --/row -->
+    <div class="row">
+        <div class="col-lg-9 col-lg-offset-1">
+            {{ content }}
+        </div> <! --/col-lg-9-- >
+    </div> <! --/row  -->
 </div><! --/container -->
 	 
 {% include portfolio.html title="Related Works." limit=5 %}

@@ -8,37 +8,47 @@ layout: default
     <div class="row">
 
         {% include carousel.html %}
+        <!-- In order to put the TOC in a separated div, we must split the content by the excerpt separator. Thanks Stack Overflow! -->
+        {% assign contentArray = page.content | markdownify | split: site.excerpt_separator %}
 
         <div class="col-lg-6 col-lg-offset-1">
             <div class="spacing"></div>
-            <h2> Table of Contents </h2>
-            {:.no_toc}
-            * TOC
-            {:toc}
-
+            
+            {{ contentArray.first }}
+            
         </div>
+
         <div class="col-lg-3 col-lg-offset-1">
             <div class="spacing"></div>
             <h4>Project Details</h4>
             <div class="hline"></div>
+
             <p><b>Date:</b> {{ page.date | date: "%b %-d, %Y" }}</p>
             <p><b>Author:</b> {{ page.author }}</p>
-            <p><b>Categories:</b> 
-            {% for cat in page.categories %}
-            {{ cat }},
-            {% endfor %}
+            <p><b>Categories:</b>
+
+                {% for cat in page.categories %}
+                {{ cat }},
+                {% endfor %}
+
             </p>
             <p><b>Tagged:</b> 
-            {% for tags in page.tags %}
-            {{ tags }},
-            {% endfor %}
+
+                {% for tags in page.tags %}
+                {{ tags }},
+                {% endfor %}
+
             </p>
             <p><b>Website:</b> <a href="{{ page.website }}">{{ page.website }}</a></p>
         </div>
+
     </div><! --/row -->
+
     <div class="row">
         <div class="col-lg-9 col-lg-offset-1">
-            {{ content }}
+
+            {{ contentArray.last }}
+
         </div> <! --/col-lg-9-- >
     </div> <! --/row  -->
 </div><! --/container -->

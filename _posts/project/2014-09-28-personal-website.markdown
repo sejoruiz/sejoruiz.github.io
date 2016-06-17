@@ -84,7 +84,7 @@ That means that the website that will be served needs to be placed inside /var/w
 	
 And if we go to [localhost](http://localhost) we will see something like this:
 
-<a href={{site.project_img}}{{page.images_root}}/nginx.png rel="prettyPhoto" title="Nginx welcome page"><img src={{site.project_img}}{{page.images_root}}/nginx.png alt="Nginx welcome page" /></a>
+[![Nginx welcome page]({{site.project_img}}{{page.images_root}}/nginx.png)]({{site.project_img}}{{page.images_root}}/nginx.png){:rel="prettyPhoto" title="Nginx welcome page"}
 
 I have to say, I also set up a database system (MySQL) and a couple of things more, but they are not really required for the website.
 Finally, I set up a Dynamic DNS service. This allows the access of a website through a name (i.e. [http://sergioruiz.duckdns.org](http://sergioruiz.duckdns.org)) instead of through an IP address. I won't go into details, but basically the Dynamic DNS is a DNS for dynamic IP. It doesn't matter if your IP is assigned dynamically, you'll still be able to find your website using its address. I chose [DuckDNS](http://www.duckdns.org), but there are many other choices out there.
@@ -95,7 +95,7 @@ Finally, I set up a Dynamic DNS service. This allows the access of a website thr
 
 After installing all the server software, I started thinking about how to develop the website. After some research, I discovered [Jekyll](http://jekyllrb.com/). For those who don't know it, Jekyll is the framework that generates the [GitHub](http://www.github.com) pages. From their own website:
 
-<a href={{site.project_img}}{{page.images_root}}/jekyll.png rel="prettyPhoto" title="Jekyll's logo"><img src={{site.project_img}}{{page.images_root}}/jekyll.png alt="Jekyll's logo" /></a>
+[![Jekyll logo]({{site.project_img}}{{page.images_root}}/jekyll.png)]({{site.project_img}}{{page.images_root}}/jekyll.png){:rel="prettyPhoto" title="Jekyll is a static site generator developed by Github"}
 
 >Jekyll is a simple, blog-aware, static site generator. It takes a template directory containing raw text files in various formats, runs it through Markdown (or Textile) and Liquid converters, and spits out a complete, ready-to-publish static website suitable for serving with your favorite web server. Jekyll also happens to be the engine behind GitHub Pages, which means you can use Jekyll to host your project’s page, blog, or website from GitHub’s servers for free.
 
